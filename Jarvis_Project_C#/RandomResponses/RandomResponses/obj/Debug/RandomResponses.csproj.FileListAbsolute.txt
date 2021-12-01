@@ -1,0 +1,10 @@
+M:\Personal projects\RandomResponses\RandomResponses\bin\Debug\RandomResponses.exe.config
+M:\Personal projects\RandomResponses\RandomResponses\bin\Debug\RandomResponses.exe
+M:\Personal projects\RandomResponses\RandomResponses\bin\Debug\RandomResponses.pdb
+M:\Personal projects\RandomResponses\RandomResponses\obj\Debug\RandomResponses.csprojAssemblyReference.cache
+M:\Personal projects\RandomResponses\RandomResponses\obj\Debug\RandomResponses.Form1.resources
+M:\Personal projects\RandomResponses\RandomResponses\obj\Debug\RandomResponses.Properties.Resources.resources
+M:\Personal projects\RandomResponses\RandomResponses\obj\Debug\RandomResponses.csproj.GenerateResource.cache
+M:\Personal projects\RandomResponses\RandomResponses\obj\Debug\RandomResponses.csproj.CoreCompileInputs.cache
+M:\Personal projects\RandomResponses\RandomResponses\obj\Debug\RandomResponses.exe
+M:\Personal projects\RandomResponses\RandomResponses\obj\Debug\RandomResponses.pdb
