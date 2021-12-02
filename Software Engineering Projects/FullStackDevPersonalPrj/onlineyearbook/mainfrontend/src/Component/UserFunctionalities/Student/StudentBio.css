@@ -1,0 +1,92 @@
+#studentBioContainer .studentbioBox{
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 600px;
+    margin-left:33%;
+    margin-top:13px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+}
+
+#studentBioContainer .studentbioBox .studentBioText h1{
+ font-size: 23px;
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface{
+    font-size: 23px;
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface input{
+    border:  solid #ccc;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    -webkit-transition: 0.5s;
+    box-sizing: border-box;
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface input:focus{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border: solid #2bff60;
+}
+
+
+
+#studentBioContainer .studentbioBox .studentBioInterface h1{
+    font-size: 13px;
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface .firstFive{
+    margin-right: 50%;
+   /* background: red; */
+   position: relative;
+   
+}
+
+
+#studentBioContainer .studentbioBox .studentBioInterface .lastFive{
+    margin-left: 50%;
+    margin-top: -65.1%;
+    /* background: red; */
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface .fareWellMSgText {
+    margin-top: 14%;
+    /* background: red; */
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface .fareWellMSgText textarea{
+    width: 550px;
+    height: 120px;
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface .fareWellMSgText textarea{
+    width: 550px;
+    height: 100px;
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface .createBio{
+margin-top: -9px;
+}
+
+#studentBioContainer .studentbioBox .studentBioInterface .createBio button{
+    border-radius: 20px;
+    border: 1px solid #92ff2b;
+    background-color: #2bff60;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+

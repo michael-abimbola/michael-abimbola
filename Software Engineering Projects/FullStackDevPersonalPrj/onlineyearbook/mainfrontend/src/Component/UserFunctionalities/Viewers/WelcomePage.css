@@ -1,0 +1,159 @@
+#landingPage .landingPageTextContainer{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10px;;
+    width: 1000px;
+    height:140px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+#landingPage .landingPageTextContainer h1{
+    font-size: 2.8em;
+    color: white;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 20px #2bff60,
+                0 0 40px #2bff60,
+                0 0 80px #2bff60,
+                0 0 120px #2bff60;
+}
+
+#landingPage .landingPageTextContainer .lightbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9px;
+    height: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: white;
+    z-index: 2;
+    box-shadow: 0 0 20px #2bff60,
+    0 0 40px #2bff60,
+    0 0 80px #2bff60,
+    0 0 120px #2bff60;
+    animation: animatelightbar 5s linear infinite;
+}
+
+@keyframes animatelightbar {
+    0%, 5%
+    {
+        transform: scaleY(0) translateX(0)
+    }
+    10%
+    {
+        transform: scaleY(1) translateX(0)
+    }
+    90%{
+        transform: scaleY(1) translateX(calc(1000px - 9px));
+    }
+    95%, 100%{
+        transform: scaleY(0) translateX(calc(1000px - 9px));
+    }
+}
+
+.topLayer{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: animteTopLayer 10s linear infinite;
+
+}
+
+@keyframes animteTopLayer {
+    0%, 2.5%
+    {
+        transform: translateX(0)
+    }
+    5%
+    {
+        transform: translateX(0)
+    }
+    45%{
+        transform: translateX(100%);
+    }
+    47.5%, 50%{
+        transform: translateX(100%);
+    }
+    50.001%, 52.5%
+    {
+        transform: translateX(-100%)
+    }
+    55%
+    {
+        transform: translateX(-100%)
+    }
+    95%{
+        transform: translateX(0%);
+    }
+    97.5%, 100%{
+        transform: translateX(0%);
+    }
+}
+
+#landingPage .gradYearContainer{
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin-left:34%;
+    margin-top:6%;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+#landingPage .gradYearContainer .desiredGradYearText{
+    color:black;
+    /* background-color: black; */
+    position: absolute;
+    width:39.2%;
+    margin-top: 10px;
+    margin-left: -3%;
+}
+
+#landingPage .gradYearContainer .desiredGradYearCombo{
+    width:16%;
+    /* background-color: black; */
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 8%;
+}
+
+#landingPage .gradYearContainer .desiredGradYearCombo select{
+    width:100%;
+}
+
+#landingPage .gradYearContainer .desiredGradYearBtn{
+    width:16%;
+    /* background-color: black; */
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+#landingPage .gradYearContainer .desiredGradYearBtn button{
+    margin-top: 10px;
+    border-radius: 20px;
+	border: 1px solid #92ff2b;
+	background-color: #2bff60;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 6px 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+
+

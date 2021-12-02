@@ -1,0 +1,45 @@
+variables:
+ GIT_DEPTH: 0
+
+stages:
+- build
+- test
+- sonarQube
+- cypress
+- docker-build
+
+build:
+ stage: build
+ script:
+    - cd "onlineyearbook"
+    - ./gradlew build -x test
+
+test:
+ stage: test
+ script:
+    - cd "onlineyearbook"
+    - ./gradlew test
+
+sonarQube:
+ stage: sonarQube
+ script:
+    - cd "onlineyearbook"
+    - ./gradlew sonarqube
+
+cypress:
+ stage: cypress
+ script: 
+    - cd mainfrontend
+    - npx cypress run
+
+docker-build:
+ stage: docker-build
+ before_script:
+    - type cred.txt | docker login --username mikoko --password-stdin
+ script:
+    - docker build -t mikoko/onlineyearbook:latestversion .
+    - docker push mikoko/onlineyearbook:latestversion
+
+after_script:
+  - echo "End CI"
+  - exit

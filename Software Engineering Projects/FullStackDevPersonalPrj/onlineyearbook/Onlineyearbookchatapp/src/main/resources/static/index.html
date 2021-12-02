@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"
+          content="width=device-width, inital-scale=1.0, minimum-scale=1.0">
+    <title>OnlineYearbook springboot Chat App</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+<noscript>:( Sorry your browser does not support Javascript</noscript>
+
+<div id = "userRegistrationPage">
+    <div class = "userRegistrationPageContainer">
+        <h1 class = "title">Join chat now with your Nickname</h1>
+        <form id = "registrationForm" name = "registrationForm">
+            <div class="form-content">
+                <input type = "text" id = "userName" placeholder="Username"
+                       class="form-control" autocomplete="off"/>
+            </div>
+
+            <div class = "form-content">
+                <button type="submit" class = "accent registerBtn">
+                    Start chatting
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="chatRoom" class = "hidden">
+    <div class = "chatRoomContainer">
+        <div class = "chatRoomTitle">
+            <h2>Onlineyearbook chatroom</h2>
+        </div>
+        <div class="connecting">Connecting to public room ....</div>
+        <ul id="messageArea">
+
+        </ul>
+        <form id = "chatRoomForm">
+            <div class = "chatRoomFormContainer">
+                <div class="chatRoomInput clearfix">
+                    <input type = "text" id = "message" placeholder="Type message here ..."
+                           autocomplete="off" class = "form-control"/>
+                    <button type = "submit" class="primary"><img width = "40" src="/icons/send.png"></button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="/js/main.js"></script>
+</div>
+</body>
+</html>

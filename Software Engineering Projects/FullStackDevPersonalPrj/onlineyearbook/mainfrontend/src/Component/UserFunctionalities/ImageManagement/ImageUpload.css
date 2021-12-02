@@ -1,0 +1,110 @@
+
+#imageUploaderContainer .uploader {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 500px;
+    margin-left:33%;
+    margin-top:3%;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+#imageUploaderContainer .uploader .title{
+    color:black;
+    margin-top: 3%;
+    margin-bottom: -5%;
+    margin-left: -15px;
+    font-size: 12px;
+}
+
+#imageUploaderContainer .uploader .image-preview{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 6%;
+}
+
+
+
+#imageUploaderContainer .uploader .file-upload{
+    position: absolute;
+    cursor:pointer;
+    max-width: 20px;
+	background-color: #d1edf5;
+	color: #9b9999;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin-top: 15%;
+    margin-left: 13%;
+}
+
+#imageUploaderContainer .uploader .selecterContainer{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 15%;
+}
+
+#imageUploaderContainer .uploader .selecterContainer .gradYearSelect{
+max-width: 320px;
+padding-bottom: 7px;
+margin-left: -20px;;
+}
+
+#imageUploaderContainer .uploader .selecterContainer .gradYearSelect select{
+    width:100%;
+}
+
+#imageUploaderContainer .uploader .selecterContainer .gradClassSelect{
+    max-width: 320px;
+    padding-bottom: 7px;
+    margin-left: -20px;
+}
+    
+#imageUploaderContainer .uploader .selecterContainer .gradClassSelect select{
+    width:100%;
+}
+
+#imageUploaderContainer .uploader .selecterContainer .imageCategorySelect{
+    max-width: 320px;
+    padding-bottom: 7px;
+    margin-left: -20px;
+}
+    
+#imageUploaderContainer .uploader .selecterContainer .imageCategorySelect select{
+    width:100%;
+}
+
+#imageUploaderContainer .uploader .upload-image{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 15%;
+}
+
+#imageUploaderContainer .uploader .upload-image button{
+    margin-top: 10px;
+    border-radius: 20px;
+	border: 1px solid #92ff2b;
+	background-color: #2bff60;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 6px 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+
+.success{
+    margin-top: 12px;
+    margin-left: 0px;
+    font-size: 17px;
+    color: green;
+  }

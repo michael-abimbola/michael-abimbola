@@ -1,0 +1,76 @@
+#farewellMessagePageContainer .title{
+margin-left: 50px;;
+}
+
+#farewellMessagePageContainer .success{
+    margin-left: 45px;;
+}
+
+#farewellMessagePageContainer .gradClasses{
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    margin-left:33%;
+    margin-top:50px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+}
+
+#farewellMessagePageContainer .gradClasses .classRoomLogo{
+    /* background: red; */
+    width:50%;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#farewellMessagePageContainer .gradClasses .classRoomLogo img{
+    margin-left: -220px;
+}
+
+#farewellMessagePageContainer .gradClasses .gradClassName{
+   /* background: red; */
+   position: absolute;
+   margin-left:34%;
+   margin-top: 5%;
+}
+
+#farewellMessagePageContainer .gradClasses .farewellMsgInput{
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 120px;
+}
+
+#farewellMessagePageContainer .gradClasses .farewellMsgInput input{
+    border:  solid #ccc;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    -webkit-transition: 0.5s;
+    box-sizing: border-box;
+} 
+
+#farewellMessagePageContainer .gradClasses .farewellMsgAddBtn{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 167px;
+} 
+
+#farewellMessagePageContainer .gradClasses .farewellMsgAddBtn button{
+    border-radius: 20px;
+    border: 1px solid #92ff2b;
+    background-color: #2bff60;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+} 

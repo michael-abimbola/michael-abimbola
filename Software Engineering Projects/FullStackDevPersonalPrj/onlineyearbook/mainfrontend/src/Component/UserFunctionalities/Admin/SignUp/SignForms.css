@@ -1,0 +1,48 @@
+.rbcontainer {
+	display: inline-flex;
+    left:10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.radiobtn {
+    position: absolute;
+    display:none;
+}
+
+.radiodiv {
+    width:1.25em;
+    height: 1.25em;
+    border:2px solid #d8e4e2;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* ensures the padding does not expand the size of the radio button */
+    box-sizing: border-box;
+    /* give a gap between the middle circle and the edges */
+    padding:2px;
+}
+
+/* this creates a virtual element inside the radio div tags which we can style */
+.radiodiv::after{
+    /* makes sure the virutal element gets displayed */
+    content: "";
+    /* width to display makes sure the virtual element takes up the size of the div */
+    width:100%;
+    height: 100%;
+    display: block;
+    background: #FFFDD0;
+    border-radius: 50%;
+
+    /* by default the virtual elemnt does not show */
+    transform: scale(0);
+    transition: transform 0.15s;
+}
+
+.radiobtn:checked + .radiodiv::after{
+  transform: scale(1);
+}
+
+button{
+    cursor: pointer;
+}

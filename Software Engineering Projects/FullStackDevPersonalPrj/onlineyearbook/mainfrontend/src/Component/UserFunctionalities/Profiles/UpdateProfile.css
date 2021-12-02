@@ -1,0 +1,68 @@
+#updateProfileContainer .updateProfileBox{
+        display: block;
+        clear: both;
+        margin: 0 auto;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 600px;
+        min-height: 300px;
+        margin-left:33%;
+        margin-top:6%;
+        background-color: #fff;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+        position: relative;
+}
+
+#updateProfileContainer .updateProfileBox .title {
+        position: absolute;
+        margin-left: 27%;
+        margin-top: -13px;
+}
+
+#updateProfileContainer .updateProfileBox .title h1{
+        font-size: 30px;
+}
+
+#updateProfileContainer .updateProfileBox .updateProfileInterface {
+        position: absolute;
+        margin-top:8%;
+        margin-left: 20%;
+}
+
+#updateProfileContainer .updateProfileBox .updateProfileInterface .interfaceInputs h1{
+        font-size: 22px;
+}
+#updateProfileContainer .updateProfileBox .updateProfileInterface .interfaceInputs input{
+        border:  solid #ccc;
+        border-top-style: hidden;
+        border-left-style: hidden;
+        border-right-style: hidden;
+        -webkit-transition: 0.5s;
+        box-sizing: border-box;
+}
+
+#updateProfileContainer .updateProfileBox .updateProfileInterface .updateProfileBtn{
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 15px;
+}
+
+#updateProfileContainer .updateProfileBox .updateProfileInterface .updateProfileBtn button{
+        border-radius: 20px;
+        border: 1px solid #92ff2b;
+        background-color: #2bff60;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 6px 30px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+}
+
+#updateProfileContainer .updateProfileBox .updateProfileInterface .messages{
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 50px;
+}

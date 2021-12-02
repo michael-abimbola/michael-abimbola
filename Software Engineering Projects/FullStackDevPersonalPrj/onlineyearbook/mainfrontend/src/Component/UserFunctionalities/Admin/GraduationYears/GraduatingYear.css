@@ -1,0 +1,17 @@
+.container .gradTitle{
+	margin-top: -22%;
+}
+
+.overlay-container #fetchDataOverlay{
+	font-size: 20px;
+	display:block;
+}
+
+.overlay-container h1{
+	font-size: 30px;
+	margin-left:90px;
+}
+
+.success{
+	color:green;
+}
